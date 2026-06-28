@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 %% TAREFA 1: Analise Estatica Completa do Sistema DC
 clear; clc; close all;
 
@@ -84,7 +83,6 @@ title('Esforco Eletrico: i x V');
 xlabel('Tensao V [Volts]'); 
 ylabel('Corrente i [A]');
 xlim([-40 40]); ylim([-3 3]); grid on; legend('Location', 'northwest');
-=======
 %% TAREFA 1: Analise e Resolucao de Sistema DC
 % Limpeza inicial do ambiente
 clear; clc; close all;
@@ -179,4 +177,3 @@ ylim([-30 30]);
 grid on;
 legend('Location', 'northeast');
 hold off;
->>>>>>> a87fa606661a82320c9e04007f995cc4568e6762
