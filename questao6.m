@@ -20,7 +20,7 @@ a = -den_z(2);
 
 %% 2. Reconstruindo o Projeto do CRV (Alocacao de Polos - Item 4)
 ts_alvo = 4.5;
-polo_s = -3 / (ts_alvo/3); % Ajuste de 1a ordem
+polo_s = -3 / (ts_alvo); % Ajuste de 1a ordem
 pd = exp(polo_s * Ts);
 
 % Coeficientes do Controlador PI Discreto: C(z) = (q0*z + q1) / (z - 1)
